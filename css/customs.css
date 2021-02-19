@@ -45,6 +45,32 @@
   visibility: visible !important;
 }
 
+.fadeLeft {
+  -webkit-animation: animat_left 0.8s;
+  animation: animat_left 0.8s;
+  visibility: visible !important;
+}
+
+.fadeRight {
+  -webkit-animation: animat_right 0.8s;
+  animation: animat_right 0.8s;
+  visibility: visible !important;
+}
+
+@keyframes animat_left{
+  0%{right:150%;
+     opacity:0}
+  100%{right:0%;
+       opacity:0}
+}
+
+@keyframes animat_right{
+  0%{left:-150%;
+     opacity:0}
+  100%{left:0%;
+       opacity:1}
+}
+
 @keyframes animat_show{
   0%{opacity:0}
   100%{opacity:1}

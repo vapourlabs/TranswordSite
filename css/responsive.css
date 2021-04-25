@@ -1,0 +1,460 @@
+@media (max-width: 1719px) and (min-width: 1300px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1250px;
+    }
+
+    p {
+        font-style: 1.75rem;
+    }
+
+    .col_3 {
+        width: 25%;
+    }
+
+    /* Header */
+    .header_bg {
+        top: -50px;
+    }
+
+    .logo a h3, .footer_logo a {
+        font-size: 2rem;
+    }
+
+    /* Hero */
+    .global_heading h1 {
+        font-size: 4.25rem;
+        margin-bottom: 30px;
+    }
+
+    .global_text p {
+        font-size: 1.75rem;
+    }
+
+    /* Commands */
+    #commands {
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    .commands_img {
+        width: 100%;
+    }
+
+    /* Services */
+    .s_icon img {
+        height: 180px;
+    }
+
+    #services {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer_links ul li a, .footer_text p {
+        font-size: 1.1rem;
+    }
+
+}
+
+
+@media (max-width: 1299px) and (min-width: 1025px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: auto;
+        margin: 0 50px;
+    }
+
+    p {
+        font-style: 1.5rem;
+    }
+
+    .col_3 {
+        width: 25%;
+    }
+
+    /* Header */
+    .header_bg {
+        top: -30px;
+    }
+
+    .logo a h3, .footer_logo a {
+        font-size: 1.5rem;
+    }
+
+    /* Hero */
+    .global_heading h1 {
+        font-size: 4.25rem;
+        margin-bottom: 30px;
+    }
+
+    .global_text p {
+        font-size: 1.5rem;
+    }
+
+    /* Commands */
+    #commands {
+        height: 90vh;
+        padding-top: 50px;
+    }
+
+    .commands_img {
+        width: 100%;
+    }
+
+    /* Services */
+    #services {
+        width: 75%;
+    }
+    
+    .s_icon img {
+        height: 150px;
+    }
+
+    .avatar_images img {
+        width: 75%;
+    }
+
+    /* Footer */
+    .footer_links ul li a, .footer_text p {
+        font-size: 1.1rem;
+    }
+
+    .footer_text p br {
+        display: none;
+    }
+
+    .footer_text_sml p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        margin: 0 30px;
+    }
+
+    .container {
+        width: auto;
+        margin: 0 30px;
+    }
+
+    p {
+        font-style: 1.4rem;
+    }
+
+    .col_3 {
+        width: 20%;
+    }
+
+    .col_5, .col_7 {
+        width: 50%;
+    }
+
+    .global_btn button {
+        font-size: 1.2rem;
+    }
+
+    /* Header */
+    .header_bg {
+        top: -10px;
+    }
+
+    .logo a h3, .footer_logo a {
+        font-size: 1.4rem;
+    }
+
+    /* Hero */
+    .global_heading h1 {
+        font-size: 3.25rem;
+        margin-bottom: 30px;
+    }
+
+    .global_text p {
+        font-size: 1.4rem;
+    }
+
+    /* Commands */
+    #commands {
+        height: 90vh;
+        padding-top: 50px;
+    }
+
+    .commands_img {
+        width: 100%;
+    }
+
+    /* Services */
+    #services {
+        width: 85%;
+    }
+
+    .service_items {
+        margin-bottom: 60px;
+    }
+    
+    .s_icon img {
+        height: 150px;
+    }
+
+    .avatar_images img {
+        width: 75%;
+    }
+
+    /* Ready */
+    #ready .service_items {
+        margin-top: 150px;
+    }
+
+    .avatar_items {
+        padding: 25px 0;
+    }
+
+    /* Footer */
+    .footer_links ul li a, .footer_text p {
+        font-size: 1rem;
+    }
+
+    .footer_text p br {
+        display: none;
+    }
+
+    .footer_text_sml p {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width: 260px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        margin: 0 15px;
+    }
+
+    .container {
+        width: auto;
+        margin: 0 15px;
+    }
+
+    p {
+        font-style: 1rem;
+    }
+
+    .col_3 {
+        width: 50%;
+    }
+
+    .col_5, .col_7, .col_6 {
+        width: auto;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .global_btn button {
+        font-size: 1rem;
+    }
+
+    /* Header */
+    header {
+        padding: 30px 0;
+        z-index: 99;
+    }
+
+    .header_bg {
+        top: 0px;
+    }
+
+    .logo a h3, .footer_logo a {
+        font-size: 1.1rem;
+    }
+
+    .logo {
+        position: relative;
+        z-index: 9999;
+    }
+
+    .burger, .toggle {
+        z-index: 9999;
+    }
+
+    /* Responsive Menu */
+    nav ul {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: #5576EB;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: hidden;
+        z-index: 1;
+        transform: translateX(100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center!important;
+        align-items: center;
+        transition: transform 0.5s ease-in;
+    }
+
+    nav ul li {
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+
+    nav ul li a {
+        font-weight: 500;
+        font-size: 1.15rem;
+        color: #fff;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .burger div {
+        width: 25px;
+        height: 2px;
+        margin: 4px;
+        background-color: #fff;
+        transition: all 0.5s ease;
+    }
+
+    .nav_active {
+        transform: translateX(0%);
+    }
+    
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(3px,-1px);
+    }
+
+    .toggle .line2 {
+        display: none;
+    }
+
+    .toggle .line3 {
+        transform: rotate(45deg) translate(-6px, -6px);
+    }
+
+    /* Hero */
+    #hero {
+        position: relative;
+        height: 60vh;
+        top: 100px;
+    }
+
+    .global_heading h1 {
+        font-size: 2.3rem;
+        margin-bottom: 30px;
+    }
+
+    .global_text {
+        margin-bottom: 30px;
+    }
+
+    .global_text p {
+        font-size: 1rem;
+    }
+
+    /* Commands */
+    #commands {
+        height: 90vh;
+        padding-top: 50px;
+    }
+
+    .commands_items {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .commands_items .global_btn {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .commands_img {
+        width: 100%;
+    }
+
+    /* Services */
+    #services {
+        width: 100%;
+    }
+
+    #services .flex {
+        flex-direction: row;
+    }
+
+    .service_items {
+        margin-bottom: 60px;
+    }
+    
+    .s_icon img {
+        height: 80px;
+        margin-bottom: 20px;
+    }
+
+    .avatar_images img {
+        width: 100%;
+    }
+
+    /* Ready */
+    #ready .service_items {
+        margin-top: 150px;
+    }
+
+    .avatar_items {
+        padding: 25px 0;
+    }
+
+    /* Footer */
+    footer .flex {
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+
+    footer .col_3 {
+        width: 40%;
+        margin-bottom: 40px;
+    }
+
+    .footer_links ul li a, .footer_text p {
+        font-size: .85rem;
+    }
+
+    .footer_logo {
+        margin-bottom: 30px;
+    }
+
+    .footer_text p br {
+        display: none;
+    }
+
+    .footer_text_sml p {
+        font-size: .85rem;
+    }
+
+}
